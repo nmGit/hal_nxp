@@ -25,6 +25,6 @@ if (CONFIG_MCUX_COMPONENT_driver.iomuxc)
 
 endif()
 
-mcux_add_cmakelists(${CMAKE_CURRENT_LIST_DIR}/flexram)
-mcux_add_cmakelists(${CMAKE_CURRENT_LIST_DIR}/romapi)
-mcux_add_cmakelists(${CMAKE_CURRENT_LIST_DIR}/nic301)
+add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/flexram)
+add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/romapi)
+add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/nic301)
