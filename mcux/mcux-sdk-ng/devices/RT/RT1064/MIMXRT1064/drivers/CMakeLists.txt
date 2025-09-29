@@ -25,6 +25,6 @@ if (CONFIG_MCUX_COMPONENT_driver.iomuxc)
 
 endif()
 
-mcux_add_cmakelists(${CMAKE_CURRENT_LIST_DIR}/../../../RT1050/MIMXRT1052/drivers/flexram)
-mcux_add_cmakelists(${CMAKE_CURRENT_LIST_DIR}/../../../RT1060/MIMXRT1062/drivers/romapi)
-mcux_add_cmakelists(${CMAKE_CURRENT_LIST_DIR}/../../../RT1060/MIMXRT1062/drivers/nic301)
+mcux_add_cmakelists(${CMAKE_CURRENT_LIST_DIR}/flexram)
+mcux_add_cmakelists(${CMAKE_CURRENT_LIST_DIR}/romapi)
+mcux_add_cmakelists(${CMAKE_CURRENT_LIST_DIR}/nic301)
